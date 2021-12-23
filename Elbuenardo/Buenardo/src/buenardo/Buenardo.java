@@ -292,7 +292,7 @@ public class Buenardo extends JFrame implements KeyListener {
         setFocusable(true);
         addKeyListener(this);
         pack();
-        serVisible(true);
+        setVisible(true);
         blockgen();
         
     }//end constructor Mine()
